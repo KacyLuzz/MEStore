@@ -1,0 +1,1 @@
+<?php $mysql_host="192.168.1.11"; $mysql_password=""; $mysql_username="root"; $mysql_db="mestore"; ?>
