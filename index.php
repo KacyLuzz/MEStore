@@ -86,6 +86,9 @@ color:white;
 
 }
 </style>
+
+<title><?php echo $name ?> - Accueil</title>
+
 </head>
 <body style="cursor:url('cursor.png'), default; height:620;">
 
@@ -181,7 +184,13 @@ $data = mysql_fetch_array($req);
 ?>
 </table>
 
-<div class="footer" style="position:absolute; bottom:0; background:black; left:0; width:1365; height:60;"></div>
+<div class="footer" style="position:absolute; bottom:0; background:black; left:0; width:1365; height:60;">
+<table>
+
+<tr><th><a style="color:red;">Accueil</a></th><th><a href="panier.php">Panier</a></th></tr>
+<tr><th><a href="admin/">Espace Administrateur</a></th></tr>
+</table>
+</div>
 
 <div id="down"></div>
 
